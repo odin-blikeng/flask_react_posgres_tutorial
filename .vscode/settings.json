@@ -1,0 +1,43 @@
+{
+    "terminal.integrated.inheritEnv": false,
+    "editor.rulers": [
+        81,
+        121
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "autoDocstring.customTemplatePath": "C:/Users/Odin/gitrepos-odin/Bachelor/Practice/StuffFromGit/guidelines/python/vscode/resources/google.mustache",
+    "pythonTestExplorer.testFramework": "pytest",
+    "githubIssues.queries": [
+        {
+            "label": "My Pressing Issues",
+            "query": "state:open repo:${owner}/${repository} assignee:${user} label:P0"
+        },
+        {
+            "label": "My Issues",
+            "query": "state:open repo:${owner}/${repository} assignee:${user} -label:P0"
+        },
+        {
+            "label": "Other Pressing Issues",
+            "query": "state:open repo:${owner}/${repository} -assignee:${user} label:P0"
+        },
+        {
+            "label": "Other Open Issues",
+            "query": "state:open repo:${owner}/${repository} -assignee:${user} -label:P0"
+        }
+    ],
+    "githubIssues.issueBranchTitle": "feature/${issueNumber}-${sanitizedIssueTitle}",
+    "githubIssues.useBranchForIssues": "prompt",
+    "githubPullRequests.defaultMergeMethod": "squash",
+    "python.pythonPath": "C:/Users/Odin/gitrepos-odin/Bachelor/Practice/flask_react_posgres_tutorial/Scripts/python.exe"
+}

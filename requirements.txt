@@ -1,0 +1,11 @@
+black
+flake8
+pytest
+mypy
+docformatter
+pre-commit
+flask 
+flask-sqlalchemy 
+psycopg2 
+python-dotenv 
+flask-cors 
